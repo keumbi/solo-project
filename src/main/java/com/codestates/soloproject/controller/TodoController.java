@@ -41,8 +41,7 @@ public class TodoController {
     }*/
     @GetMapping
     public String getTodos() {
-
-        return "Todo Application!";
+        return "Todo Application!!";
     }
     @GetMapping("/{todo-id}")
     public ResponseEntity getTodo(@PathVariable("todo-id") Long todoId) {
